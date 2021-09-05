@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+div {
+    position: absolute;
+}
+
+#ad-container {
+    width: 300px;
+    height: 250px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+#landscape {
+    width: 600px;
+    height: 500px;
+    left: -150px;
+    top: -115px;
+    background-image: url("assets/landscape_300x250.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#mountain {
+    width: 600px;
+    height: 500px;
+    left: -150px;
+    top: -115px;
+    background-image: url("assets/mountain_300x250.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#heart {
+    width: 242px;
+    height: 208px;
+    left: 29px;
+    top: 23px;
+    background-image: url("assets/heart_300x250.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+#text {
+    width: 242px;
+    height: 37px;
+    left: 29px;
+    top: 80px;
+    background-image: url("assets/text_300x250.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+#couple {
+    width: 800px;
+    height: 667px;
+    left: -243px;
+    top: -250px;
+    position: absolute;
+    background-image: url("assets/couple_300x250.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#birds {
+    width: 114px;
+    height: 38px;
+    left: 300px;
+    top: 45px;
+    background-image: url("assets/birds.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#logo {
+    width: 98px;
+    height: 37px;
+    left: 10px;
+    bottom: 10px;
+    background-image: url("assets/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+#cta {
+    width: 98px;
+    height: 25px;
+    right: 10px;
+    bottom: 10px;
+    background-image: url("assets/cta_300x250.svg");
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-position: left top;
+    opacity: 0;
+}
+
+#cta:hover {
+    background-position: right top;
+}
+
+#border {
+    width: 298px;
+    height: 248px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    pointer-events: none;
+}
+
+}
+
+@layout ([727-729]x[89-91]) {
+    #landscape {
+        width: 728px;
+        height: 90px;
+        left: 0;
+        top: 0;
+        background-image: url("assets/landscape_728x90.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0;
+    }
+
+    #text {
+        width: 308px;
+        height: 35px;
+        left: 290px;
+        top: 8px;
+        background-image: url("assets/text_728x90.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0;
+    }
+
+    #cta {
+        width: 308px;
+        height: 39px;
+        left: 290px;
+        bottom: 8px;
+        background-image: url("assets/cta_728x90.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left top;
+        opacity: 0;
+    }
+
+    #cta2 {
+        width: 308px;
+        height: 39px;
+        left: 290px;
+        bottom: 8px;
+        background-image: url("assets/cta2_728x90.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left top;
+        opacity: 0;
+        display: none;
+    }
+
+    #logo {
+        width: 102px;
+        height: 38px;
+        right: 23px;
+        top: 26px;
+        background-image: url("assets/logo.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0;
+    }
+
+    #border {
+        width: 726px;
+        height: 88px;
+        top: 0px;
+        left: 0px;
+        opacity: 1;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        pointer-events: none;
+    }
+}
